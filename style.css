@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    margin-top: 20px;
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    height: 300px;
+}
+
+img{
+    width: 2em;
+}
+
+h1{
+    color:  hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', san-serif;
+    font-size: 1.5em;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
+}
+
+button{
+    width: 70px;
+    border-radius: 15px;
+    padding: .6em;
+    font-size: .7em;
+    align-self: flex-start;
+    border: none;
+
+}
+
+.sedan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(31, 77%, 52%);
+    padding: .5em 2em;
+}
+
+.buttonone{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(184, 100%, 22%);
+    padding: .5em 2em;
+}
+
+.buttontwo{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(179, 100%, 13%);
+    padding: .5em 2em;
+}
+
+.buttonthree{
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 376px){
+    body{
+        margin: 2em;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    img{
+        width: 60px;
+        height: auto;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+    }
+
+    .sedan{
+        height: 33.333%;
+    }
+    
+    .suvs{
+        height: 33.333%;
+    }
+
+    .luxury{
+        height: 33.333%;
+    }
+    
+
+}
+
